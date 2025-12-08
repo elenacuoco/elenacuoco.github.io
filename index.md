@@ -91,7 +91,7 @@ title: Home
       <p>You can also find me here:</p>
       <ul>
         <li><a href="https://github.com/elenacuoco" target="_blank" rel="noopener">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/elenacuoco" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://www.linkedin.com/in/elenacuoco/" target="_blank" rel="noopener">LinkedIn</a></li>
         <li><a href="https://scholar.google.com/citations?user=kKSI7MAAAAAJ&hl=it" target="_blank" rel="noopener">Google Scholar</a></li>
         <li><a href="https://orcid.org/0000-0002-6528-3449" target="_blank" rel="noopener">ORCID</a></li>
       </ul>
