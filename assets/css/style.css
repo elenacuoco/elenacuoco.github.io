@@ -608,9 +608,7 @@ img {
     font-size: 1.6rem;
   }
 }
-/* ---------------------------------------------------
-   Logo + Branding
---------------------------------------------------- */
+/* Logo + Branding */
 
 .site-branding {
   display: flex;
@@ -619,7 +617,7 @@ img {
 }
 
 .site-logo {
-  height: 38px;          /* Adjust to your preference */
+  height: 40px;  /* tweak if you want it bigger/smaller */
   width: auto;
   display: block;
 }
@@ -630,9 +628,10 @@ img {
 
 @media (max-width: 600px) {
   .site-logo {
-    height: 32px;
+    height: 34px;
   }
 }
+
 
  
 

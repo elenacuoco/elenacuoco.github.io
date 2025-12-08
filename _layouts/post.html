@@ -10,12 +10,14 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-     <div class="site-branding">
-  <a href="{{ '/' | relative_url }}" class="logo-link">
-    <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Logo" class="site-logo">
-  </a>
-  <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-</div>
+      <div class="site-branding">
+        <a href="{{ '/' | relative_url }}" class="logo-link">
+          <img src="{{ '/assets/images/DATA-NEVER-LIE-logo-1.png' | relative_url }}"
+               alt="Data Never Lie logo"
+               class="site-logo">
+        </a>
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </div>
       <nav class="site-nav">
         <ul>
           {% for item in site.nav %}
@@ -30,16 +32,10 @@
     <div class="container">
       <article class="post-wrapper">
         <header class="post-header">
-          <p class="post-breadcrumb">
-            <a href="{{ '/blog' | relative_url }}">Blog</a>
-          </p>
-
+          <p class="post-breadcrumb"><a href="{{ '/blog' | relative_url }}">Blog</a></p>
           <h1 class="post-title">{{ page.title }}</h1>
-
           <p class="post-meta-line">
-            <span class="post-meta-date">
-              {{ page.date | date: "%B %-d, %Y" }}
-            </span>
+            <span class="post-meta-date">{{ page.date | date: "%B %-d, %Y" }}</span>
             {% if page.author or site.author %}
               <span class="post-meta-separator">·</span>
               <span class="post-meta-author">
@@ -104,3 +100,4 @@
   </footer>
 </body>
 </html>
+ 

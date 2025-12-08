@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="site-branding">
+        <a href="{{ '/' | relative_url }}" class="logo-link">
+          <img src="{{ '/assets/images/DATA-NEVER-LIE-logo-1.png' | relative_url }}"
+               alt="Data Never Lie logo"
+               class="site-logo">
+        </a>
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </div>
+      <nav class="site-nav">
+        <ul>
+          {% for item in site.nav %}
+            <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
+      <p class="social-links">
+        <a href="https://github.com/elenacuoco" target="_blank" rel="noopener">GitHub</a>
+        ·
+        <a href="https://www.linkedin.com/in/elenacuoco" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
