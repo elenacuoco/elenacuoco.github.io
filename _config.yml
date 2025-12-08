@@ -1,0 +1,26 @@
+title: "Data never lie"
+author: "Elena Cuoco"
+description: "Personal website about research, data science, travels and more."
+baseurl: "" # leave empty for USERNAME.github.io
+url: "https://elenacuoco.github.io"
+theme: minima  # we’ll override with our CSS but minima is a good base
+
+# Navigation menu (we’ll use this in the layout)
+nav:
+  - name: "Home"
+    link: "/"
+  - name: "About me"
+    link: "/about"
+  - name: "Research and Academia"
+    link: "/research-and-academia"
+  - name: "Data Science"
+    link: "/data-science"
+  - name: "Travels and photos"
+    link: "/travels-and-photos"
+  - name: "Blog"
+    link: "/blog"
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
