@@ -1,13 +1,18 @@
+/* ---------------------------------------------------
+   Base
+--------------------------------------------------- */
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.6;
-  background: #f5f5f5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+  background: #fafafa;
   color: #222;
+  line-height: 1.6;
 }
 
 a {
@@ -25,36 +30,67 @@ a:hover {
   padding: 0 1rem;
 }
 
-/* Header */
+/* ---------------------------------------------------
+   Buttons
+--------------------------------------------------- */
+
+.btn {
+  display: inline-block;
+  padding: 0.55rem 1.1rem;
+  border-radius: 6px;
+  background: #1a73e8;
+  color: #fff !important;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: #155fc1;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background: #444;
+}
+
+.btn-secondary:hover {
+  background: #222;
+}
+
+/* ---------------------------------------------------
+   Header + Navigation
+--------------------------------------------------- */
 
 .site-header {
   background: #111;
-  color: #fff;
+  color: white;
+  padding: 0.3rem 0;
 }
 
 .header-inner {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 0.7rem 0;
+  align-items: center;
 }
 
 .site-title {
+  font-size: 1.3rem;
   font-weight: 700;
-  font-size: 1.2rem;
   color: #fff;
 }
 
 .site-nav ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
-  margin: 0;
+  gap: 1.2rem;
   padding: 0;
+  margin: 0;
 }
 
 .site-nav a {
-  color: #eee;
+  color: #ddd;
   font-size: 0.95rem;
 }
 
@@ -62,121 +98,164 @@ a:hover {
   color: #fff;
 }
 
-/* Hero */
+/* ---------------------------------------------------
+   Hero Section
+--------------------------------------------------- */
 
 .hero {
-  background: #222;
-  color: #fff;
-  padding: 3rem 0 2rem;
-  margin-bottom: 1.5rem;
+  background: linear-gradient(145deg, #111, #333);
+  padding: 3.5rem 0 3rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .hero-inner {
-  max-width: 980px;
+  max-width: 780px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
 .hero h1 {
-  margin: 0 0 0.5rem;
-  font-size: 2.4rem;
+  margin: 0.4rem 0 0.7rem;
+  font-size: 3rem;
+  letter-spacing: -0.5px;
 }
 
 .subtitle {
-  margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   opacity: 0.85;
+  margin-bottom: 1.5rem;
 }
 
-/* Content */
-
-.site-content {
-  padding: 1rem 0 3rem;
-  background: #f5f5f5;
+.eyebrow {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
-.home-section h2,
-.site-content h1 {
+/* ---------------------------------------------------
+   Home Sections
+--------------------------------------------------- */
+
+.home-section {
+  padding: 2rem 1rem;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.home-section h2 {
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  border-left: 5px solid #1a73e8;
+  padding-left: 0.6rem;
+}
+
+.home-section-alt {
+  background: #f0f3f8;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #ddd;
+  margin-top: 2rem;
+}
+
+/* ---------------------------------------------------
+   Feature Grid (Research, Data Science, Travels)
+--------------------------------------------------- */
+
+.feature-grid {
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-top: 1rem;
+}
+
+.feature-card {
+  background: white;
+  padding: 1.3rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+.feature-card h3 {
   margin-top: 0;
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
 }
 
-/* Posts grid */
+/* ---------------------------------------------------
+   Latest Posts Grid
+--------------------------------------------------- */
 
 .post-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1rem;
-  margin: 1rem 0 2rem;
+  gap: 1.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin: 1.5rem 0 2rem;
 }
 
 .post-card {
-  background: #fff;
-  padding: 1rem;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  background: white;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+}
+
+.post-card h3 {
+  margin-top: 0;
 }
 
 .post-meta {
   font-size: 0.8rem;
   color: #777;
-  margin: 0.2rem 0 0.6rem;
+  margin-bottom: 0.7rem;
 }
 
-/* Blog list */
+/* ---------------------------------------------------
+   Tags & Two-column info
+--------------------------------------------------- */
 
-.post-list {
+.two-columns {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  padding-top: 1.5rem;
+}
+
+.tag-list {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
 }
 
-.post-list li {
-  padding: 0.4rem 0;
-  border-bottom: 1px solid #ddd;
-}
-
-.post-date {
-  font-size: 0.8rem;
-  color: #777;
-  margin-right: 0.5rem;
-}
-
-/* Photo grid */
-
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1rem;
-}
-
-.photo-grid img {
-  width: 100%;
-  display: block;
-  border-radius: 4px;
-}
-
-/* Buttons */
-
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
+.tag-list li {
   background: #1a73e8;
-  color: #fff;
-  text-decoration: none;
-  font-size: 0.9rem;
+  color: white;
+  padding: 0.35rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  white-space: nowrap;
 }
 
-.btn:hover {
-  background: #185abc;
-}
-
-/* Footer */
+/* ---------------------------------------------------
+   Footer
+--------------------------------------------------- */
 
 .site-footer {
   background: #111;
   color: #aaa;
-  padding: 1.5rem 0;
-  font-size: 0.85rem;
+  padding: 1.8rem 0;
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 .site-footer a {
@@ -184,15 +263,29 @@ a:hover {
 }
 
 .social-links {
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
 }
 
-/* Responsive */
+.social-links a {
+  margin: 0 0.5rem;
+}
+
+/* ---------------------------------------------------
+   Responsive
+--------------------------------------------------- */
 
 @media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
   .header-inner {
     flex-direction: column;
-    align-items: flex-start;
     gap: 0.5rem;
   }
 }
+
