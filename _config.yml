@@ -3,7 +3,7 @@ author: "Elena Cuoco"
 description: "Under construction! Personal website about research, data science, travels and more."
 baseurl: "" # leave empty for USERNAME.github.io
 url: "https://elenacuoco.github.io"
-theme: cayman  # we’ll override with our CSS but minima is a good base
+ 
 
 # Navigation menu (we’ll use this in the layout)
 nav:
