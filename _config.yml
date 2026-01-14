@@ -3,7 +3,8 @@ title: "Data Never Lie"
 author: "Elena Cuoco"
 description: >
   Personal website of Elena Cuoco — research in gravitational waves,
-  data science projects, academic activities, travels, and personal notes.
+  data science projects, academic activities
+#,s travels, and personal notes.
 baseurl: "" # leave empty for USERNAME.github.io
 url: "https://elenacuoco.github.io"
 
@@ -18,12 +19,12 @@ nav:
     link: "/about"
   - name: "Research and Academia"
     link: "/research-and-academia"
-  - name: "Data Science"
-    link: "/data-science"
-  - name: "Travels and Photos"
-    link: "/travels-and-photos"
-  - name: "Blog"
-    link: "/blog"
+#  - name: "Data Science"
+#    link: "/data-science"
+#  - name: "Travels and Photos"
+#    link: "/travels-and-photos"
+#  - name: "Blog"
+#    link: "/blog"
 
 # Markdown engine
 markdown: kramdown
