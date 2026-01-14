@@ -1,11 +1,16 @@
-title: "Data never lie"
+# Site settings
+title: "Data Never Lie"
 author: "Elena Cuoco"
-description: "Under construction! Personal website about research, data science, travels and more."
+description: >
+  Personal website of Elena Cuoco — research in gravitational waves,
+  data science projects, academic activities, travels, and personal notes.
 baseurl: "" # leave empty for USERNAME.github.io
 url: "https://elenacuoco.github.io"
-theme: jekyll-theme-minimal  
 
-# Navigation menu (we’ll use this in the layout)
+# Theme
+theme: jekyll-theme-minimal
+
+# Navigation menu
 nav:
   - name: "Home"
     link: "/"
@@ -15,12 +20,35 @@ nav:
     link: "/research-and-academia"
   - name: "Data Science"
     link: "/data-science"
-  - name: "Travels and photos"
+  - name: "Travels and Photos"
     link: "/travels-and-photos"
   - name: "Blog"
     link: "/blog"
 
+# Markdown engine
 markdown: kramdown
+
+# Plugins supported by GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# SEO & social (used by jekyll-seo-tag)
+social:
+  name: Elena Cuoco
+  links:
+    - https://github.com/elenacuoco
+    - https://www.linkedin.com/in/elenacuoco
+    - https://scholar.google.com/citations?user=kKSI7MAAAAAJ&hl=it
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: "Elena Cuoco"
+
+# Permalink style for blog posts
+permalink: /blog/:year/:month/:day/:title/
