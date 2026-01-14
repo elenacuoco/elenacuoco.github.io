@@ -11,23 +11,43 @@ title: Home
       Full Professor, University of Bologna<br>
       Gravitational-wave science · Detector characterization · AI/ML for physics
     </p>
+<p style="margin-top: 0.3rem;">
+  <a href="https://www.elenacuoco.com"
+     target="_blank" rel="noopener"
+     style="font-size: 0.9rem; color: #666;">
+    www.elenacuoco.com
+  </a>
+</p>
+<p>
+  <a class="btn" href="https://scholar.google.com/citations?user=kKSI7MAAAAAJ&hl=it" target="_blank" rel="noopener">Google Scholar</a>
+  <a class="btn btn-secondary" href="https://orcid.org/0000-0002-6528-3449" target="_blank" rel="noopener">ORCID</a>
+  <a class="btn btn-secondary" href="{{ '/assets/cv/Elena_Cuoco_CV.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>
+</p>
+ <p style="margin: 0.8rem 0 0; font-size: 0.9rem; color: #666;">
+  <strong>Selected metrics:</strong>
+  Citations: <span>142216	</span> · h-index: <span>129</span>
+  <span style="color: #999;">(source: Google Scholar)</span>
+</p>
+<p style="margin-top: 0.4rem;">
+  <a href="https://www.elenacuoco.com" target="_blank" rel="noopener" style="font-size: 0.9rem; color: #666;">
+    www.elenacuoco.com
+  </a>
+</p>
 
-    <p>
-      <a class="btn" href="https://scholar.google.com/citations?user=kKSI7MAAAAAJ&hl=it" target="_blank" rel="noopener">Google Scholar</a>
-      <a class="btn btn-secondary" href="https://orcid.org/0000-0002-6528-3449" target="_blank" rel="noopener">ORCID</a>
-    </p>
   </div>
 </section>
 
 <section class="home-section">
   <h2>Short bio</h2>
 
-  <p>
-    I am a physicist and data scientist with more than twenty years of experience in data analysis for the Virgo
-    gravitational-wave experiment. My work focuses on extracting weak astrophysical signals from complex detector data,
-    with particular attention to noise analysis, system identification, and the use of machine learning for detector
-    characterization and signal detection.
-  </p>
+ <p>
+  I am a physicist and data scientist with more than twenty years of experience
+  in data analysis for the Virgo gravitational-wave experiment.
+  My work focuses on extracting weak astrophysical signals from complex detector data,
+  with particular attention to noise analysis, system identification,
+  and machine learning techniques for detector characterization and signal detection.
+</p>
+
 
   <ul class="tag-list">
     <li>gravitational waves</li>
@@ -214,4 +234,11 @@ title: Home
       LinkedIn
     </a>
   </p>
+  <p style="margin-top: 2rem; font-size: 0.85rem; color: #777;">
+  Here, you can find my personal website:
+  <a href="https://www.elenacuoco.com" target="_blank" rel="noopener">
+    www.elenacuoco.com
+  </a>
+</p>
+
 </section>
