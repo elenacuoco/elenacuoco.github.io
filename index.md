@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Academic Profile
-permalink: /academic-profile/
+title: Home
 ---
-
+ 
 <section class="hero">
   <div class="hero-inner">
     <p class="eyebrow">Academic profile</p>
@@ -105,8 +104,10 @@ permalink: /academic-profile/
 
     <div class="feature-card">
       <h3>COST Action CA17137 (G2Net)</h3>
-      <p><strong>Main proposer &amp; Action Chair</strong><br>
-      Gravitational Waves · Geophysics · Machine Learning</p>
+      <p>
+        <strong>Main proposer &amp; Action Chair</strong><br>
+        Gravitational Waves · Geophysics · Machine Learning
+      </p>
       <p>
         <a class="btn btn-secondary" href="https://www.cost.eu/actions/CA17137/" target="_blank" rel="noopener">COST page</a>
         <a class="btn btn-secondary" href="https://www.g2net.eu/" target="_blank" rel="noopener">G2Net</a>
@@ -116,42 +117,37 @@ permalink: /academic-profile/
 </section>
 
 <section class="home-section">
-   
-<h2>Selected publications</h2>
+  <h2>Selected publications</h2>
 
-<div class="feature-grid">
-  <div class="feature-card">
-    <h3>
-      Applications of machine learning in gravitational-wave research
-      with current interferometric detectors
-    </h3>
-    <p>
-      <em>Living Reviews in Relativity</em> (2025)
-    </p>
-    <a class="btn btn-secondary"
-       href="https://link.springer.com/article/10.1007/s41114-024-00055-8"
-       target="_blank" rel="noopener">
-      Read paper
-    </a>
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>
+        Applications of machine learning in gravitational-wave research
+        with current interferometric detectors
+      </h3>
+      <p><em>Living Reviews in Relativity</em> (2025)</p>
+      <a class="btn btn-secondary"
+         href="https://link.springer.com/article/10.1007/s41114-024-00055-8"
+         target="_blank" rel="noopener">
+        Read paper
+      </a>
+    </div>
+
+    <div class="feature-card">
+      <h3>Machine learning for gravitational-wave science</h3>
+      <p><em>Machine Learning: Science and Technology</em> (2021)</p>
+      <a class="btn btn-secondary"
+         href="https://iopscience.iop.org/article/10.1088/2632-2153/abb93a"
+         target="_blank" rel="noopener">
+        Read paper
+      </a>
+    </div>
   </div>
-
-  <div class="feature-card">
-    <h3>Machine learning for gravitational-wave science</h3>
-    <p>
-      <em>Machine Learning: Science and Technology</em> (2021)
-    </p>
-    <a class="btn btn-secondary"
-       href="https://iopscience.iop.org/article/10.1088/2632-2153/abb93a"
-       target="_blank" rel="noopener">
-      Read paper
-    </a>
-  </div>
-</div>
-
-  
 
   <p style="margin-top: 1rem;">
-    <a class="btn" href="https://scholar.google.com/citations?user=kKSI7MAAAAAJ&hl=it" target="_blank" rel="noopener">Full list on Google Scholar</a>
+    <a class="btn" href="https://scholar.google.com/citations?user=kKSI7MAAAAAJ&hl=it" target="_blank" rel="noopener">
+      Full list on Google Scholar
+    </a>
   </p>
 </section>
 
@@ -165,6 +161,7 @@ permalink: /academic-profile/
         data analysis, statistical inference, and machine learning for gravitational-wave science.
       </p>
     </div>
+
     <div>
       <ul>
         <li>Data analysis and statistical methods for physics</li>
@@ -188,4 +185,3 @@ permalink: /academic-profile/
     <a class="btn btn-secondary" href="https://www.linkedin.com/in/elenacuoco/" target="_blank" rel="noopener">LinkedIn</a>
   </p>
 </section>
-
