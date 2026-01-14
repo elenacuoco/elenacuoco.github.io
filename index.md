@@ -1,59 +1,191 @@
 ---
 layout: default
-title: Home
+title: Academic Profile
+permalink: /academic-profile/
 ---
 
-<header class="hero">
+<section class="hero">
   <div class="hero-inner">
-    <p class="eyebrow">Personal website of</p>
+    <p class="eyebrow">Academic profile</p>
     <h1>Elena Cuoco</h1>
     <p class="subtitle">
-      Physicist, data scientist, traveller.<br>
-      Exploring the universe through signals, numbers, and stories.
+      Full Professor, University of Bologna<br>
+      Gravitational-wave science · Detector characterization · AI/ML for physics
     </p>
+
     <p>
-      <a href="{{ '/about' | relative_url }}" class="btn">Read my story</a>
-      <a href="{{ '/research-and-academia' | relative_url }}" class="btn btn-secondary">View my research</a>
+      <a class="btn" href="https://scholar.google.com/citations?user=kKSI7MAAAAAJ&hl=it" target="_blank" rel="noopener">Google Scholar</a>
+      <a class="btn btn-secondary" href="https://orcid.org/0000-0002-6528-3449" target="_blank" rel="noopener">ORCID</a>
     </p>
   </div>
-</header>
+</section>
 
 <section class="home-section">
-  <h2>What you’ll find here</h2>
+  <h2>Short bio</h2>
+
+  <p>
+    I am a physicist and data scientist with more than twenty years of experience in data analysis for the Virgo
+    gravitational-wave experiment. My work focuses on extracting weak astrophysical signals from complex detector data,
+    with particular attention to noise analysis, system identification, and the use of machine learning for detector
+    characterization and signal detection.
+  </p>
+
+  <ul class="tag-list">
+    <li>gravitational waves</li>
+    <li>noise analysis</li>
+    <li>system identification</li>
+    <li>signal detection</li>
+    <li>machine learning</li>
+    <li>data science</li>
+  </ul>
+</section>
+
+<section class="home-section home-section-alt">
+  <h2>Appointments</h2>
 
   <div class="feature-grid">
-    <article class="feature-card">
-      <h3>Research &amp; Academia</h3>
-      <p>
-        Gravitational waves, signal processing, and the joy of working in international collaborations.
-        I share projects, talks, and links to papers and resources.
-      </p>
-      <p><a href="{{ '/research-and-academia' | relative_url }}">Dive into my research →</a></p>
-    </article>
- 
-*/
-<section class="home-section home-section-alt">
+    <div class="feature-card">
+      <h3>University of Bologna</h3>
+      <p><strong>Full Professor</strong><br>2024 – present</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>European Gravitational Observatory</h3>
+      <p><strong>Head of the Data Science Office</strong><br>2018 – 2024</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Scuola Normale Superiore</h3>
+      <p><strong>Associate Faculty</strong><br>2018 – 2024</p>
+    </div>
+  </div>
+</section>
+
+<section class="home-section">
+  <h2>Research interests</h2>
+
   <div class="two-columns">
     <div>
-      <h2>A few keywords about me</h2>
-      <ul class="tag-list">
-        <li>gravitational-wave astronomy</li>
-        <li>signal processing</li>
-        <li>machine learning</li>
-        <li>Python &amp; scientific computing</li>
-        <li>open science &amp; education</li>
-        <li>travels &amp; photography</li>
+      <ul>
+        <li>Gravitational-wave data analysis</li>
+        <li>Detector characterization and data quality</li>
+        <li>Noise studies and mitigation strategies</li>
+        <li>System identification and data conditioning</li>
       </ul>
     </div>
+
     <div>
-      <h2>Elsewhere on the web</h2>
-      <p>You can also find me here:</p>
       <ul>
-        <li><a href="https://github.com/elenacuoco" target="_blank" rel="noopener">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/elenacuoco/" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://scholar.google.com/citations?user=kKSI7MAAAAAJ&hl=it" target="_blank" rel="noopener">Google Scholar</a></li>
-        <li><a href="https://orcid.org/0000-0002-6528-3449" target="_blank" rel="noopener">ORCID</a></li>
+        <li>Transient signal detection</li>
+        <li>Machine learning for time series and complex instruments</li>
+        <li>Cross-disciplinary methods (physics · ML · geophysics)</li>
+        <li>Open science and research training</li>
+      </ul>
+    </div>
+  </div>
+
+  <p style="margin-top: 1rem;">
+    Member of the <strong>LIGO/Virgo/KAGRA (LVK) Collaboration</strong>.
+  </p>
+</section>
+
+<section class="home-section home-section-alt">
+  <h2>Leadership and coordination</h2>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>Virgo Noise Analysis Group</h3>
+      <p><strong>Group leader</strong><br>2008 – 2014</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>GraWIToN ITN</h3>
+      <p><strong>Scientific Coordinator</strong><br>2014 – 2018</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>COST Action CA17137 (G2Net)</h3>
+      <p><strong>Main proposer &amp; Action Chair</strong><br>
+      Gravitational Waves · Geophysics · Machine Learning</p>
+      <p>
+        <a class="btn btn-secondary" href="https://www.cost.eu/actions/CA17137/" target="_blank" rel="noopener">COST page</a>
+        <a class="btn btn-secondary" href="https://www.g2net.eu/" target="_blank" rel="noopener">G2Net</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="home-section">
+   
+<h2>Selected publications</h2>
+
+<div class="feature-grid">
+  <div class="feature-card">
+    <h3>
+      Applications of machine learning in gravitational-wave research
+      with current interferometric detectors
+    </h3>
+    <p>
+      <em>Living Reviews in Relativity</em> (2025)
+    </p>
+    <a class="btn btn-secondary"
+       href="https://link.springer.com/article/10.1007/s41114-024-00055-8"
+       target="_blank" rel="noopener">
+      Read paper
+    </a>
+  </div>
+
+  <div class="feature-card">
+    <h3>Machine learning for gravitational-wave science</h3>
+    <p>
+      <em>Machine Learning: Science and Technology</em> (2021)
+    </p>
+    <a class="btn btn-secondary"
+       href="https://iopscience.iop.org/article/10.1088/2632-2153/abb93a"
+       target="_blank" rel="noopener">
+      Read paper
+    </a>
+  </div>
+</div>
+
+  
+
+  <p style="margin-top: 1rem;">
+    <a class="btn" href="https://scholar.google.com/citations?user=kKSI7MAAAAAJ&hl=it" target="_blank" rel="noopener">Full list on Google Scholar</a>
+  </p>
+</section>
+
+<section class="home-section home-section-alt">
+  <h2>Teaching and mentorship</h2>
+
+  <div class="two-columns">
+    <div>
+      <p>
+        I supervise and mentor undergraduate, master’s, and Ph.D. students on projects related to
+        data analysis, statistical inference, and machine learning for gravitational-wave science.
+      </p>
+    </div>
+    <div>
+      <ul>
+        <li>Data analysis and statistical methods for physics</li>
+        <li>Machine learning for time series</li>
+        <li>Research training in international networks and schools</li>
       </ul>
     </div>
   </div>
 </section>
+
+<section class="home-section">
+  <h2>Contact</h2>
+
+  <p>
+    For collaborations, invited talks, or student supervision opportunities, please reach out via the
+    contact details listed on my institutional page.
+  </p>
+
+  <p>
+    <a class="btn btn-secondary" href="https://www.unibo.it/sitoweb/elena.cuoco/en" target="_blank" rel="noopener">University of Bologna profile</a>
+    <a class="btn btn-secondary" href="https://www.linkedin.com/in/elenacuoco/" target="_blank" rel="noopener">LinkedIn</a>
+  </p>
+</section>
+
