@@ -1,66 +1,156 @@
 ---
-layout: page
+layout: default
 title: Research and Academia
 permalink: /research-and-academia/
 ---
 
-## Research Focus
+<section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">Research</p>
+    <h1>Research and Academia</h1>
+    <p class="subtitle">
+      Gravitational-wave science, data analysis, and artificial intelligence
+      for complex physical systems.
+    </p>
+    <a href="https://scholar.google.com/citations?hl=it&user=kKSI7MAAAAAJ" class="btn">
+      Publications
+    </a>
+    <a href="https://orcid.org/0000-0002-6528-3449" class="btn btn-secondary">
+      ORCID
+    </a>
+  </div>
+</section>
 
-My research is in gravitational-wave science, with a focus on data analysis, detector characterization, and the application of artificial intelligence and machine learning methods to complex physical systems.
+<section class="home-section">
+  <h2>Research focus</h2>
 
-Key topics:
+  <ul class="tag-list">
+    <li>Gravitational waves</li>
+    <li>Detector characterization</li>
+    <li>Noise analysis</li>
+    <li>Machine learning</li>
+    <li>Artificial intelligence</li>
+    <li>Signal detection</li>
+  </ul>
 
-- Gravitational-wave data analysis
-- Noise characterization and mitigation in interferometric detectors
-- System identification and data conditioning
-- Transient signal detection
-- Machine learning and AI for physics applications
-- Cross-disciplinary work connecting physics, data science, and geophysics
+  <p>
+    My research focuses on gravitational-wave data analysis, detector
+    characterization, and the development of machine learning and AI methods
+    for extracting weak astrophysical signals from complex and noisy data.
+    I am a member of the <strong>LIGO/Virgo/KAGRA Collaboration</strong>.
+  </p>
+</section>
 
-I am a member of the **LIGO/Virgo/KAGRA (LVK) Collaboration**.
+<section class="home-section home-section-alt">
+  <h2>Academic positions</h2>
 
----
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>University of Bologna</h3>
+      <p><strong>Full Professor</strong><br>
+      2024 – present</p>
+    </div>
 
-## Academic Positions
+    <div class="feature-card">
+      <h3>European Gravitational Observatory</h3>
+      <p><strong>Head of the Data Science Office</strong><br>
+      2018 – 2024</p>
+    </div>
 
-- **Full Professor**, University of Bologna (2024–present)
-- **Head of the Data Science Office**, European Gravitational Observatory (2018–2024)
-- **Associate Faculty**, Scuola Normale Superiore (2018–2024)
+    <div class="feature-card">
+      <h3>Scuola Normale Superiore</h3>
+      <p><strong>Associate Faculty</strong><br>
+      2018 – 2024</p>
+    </div>
+  </div>
+</section>
 
----
+<section class="home-section">
+  <h2>Leadership and coordination</h2>
 
-## Scientific Leadership and Coordination
+  <div class="two-columns">
+    <div>
+      <ul>
+        <li>Leader of the Virgo Noise Analysis Group (2008–2014)</li>
+        <li>Scientific Coordinator of the GraWIToN ITN (2014–2018)</li>
+        <li>Co-chair of the ML informal group (LIGO/Virgo)</li>
+      </ul>
+    </div>
 
-- **Leader of the Virgo Noise Analysis Group** (2008–2014)
-- **Scientific Coordinator**, *GraWIToN Initial Training Network* (2014–2018)
-- **Co-chair**, Machine Learning informal group within the LIGO/Virgo Collaboration
-- **Main Proposer and Action Chair**, COST Action CA17137  
-  *“A Network for Gravitational Waves, Geophysics, and Machine Learning (G2Net)”*
+    <div>
+      <ul>
+        <li>Main Proposer and Action Chair of COST Action CA17137</li>
+        <li>
+          <a href="https://www.g2net.eu/">G2Net – Gravitational Waves, Geophysics and Machine Learning</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
----
+<section class="home-section home-section-alt">
+  <h2>Selected publications</h2>
 
-## Publications
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>Machine Learning for GW science</h3>
+      <p>
+        <em>Machine Learning: Science and Technology</em> (2021)
+      </p>
+      <a class="btn btn-secondary"
+         href="https://iopscience.iop.org/article/10.1088/2632-2153/abb93a">
+        Read paper
+      </a>
+    </div>
 
- 
+    <div class="feature-card">
+      <h3>Noise transients in GW detectors</h3>
+      <p>
+        <em>Classical and Quantum Gravity</em> (2018)
+      </p>
+      <a class="btn btn-secondary"
+         href="https://iopscience.iop.org/article/10.1088/1361-6382/aaa8d5">
+        Read paper
+      </a>
+    </div>
 
-A complete and updated list of publications is available on:
+    <div class="feature-card">
+      <h3>GWTC-3 catalog</h3>
+      <p>
+        <em>Physical Review X</em> (2023)
+      </p>
+      <a class="btn btn-secondary"
+         href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.13.041039">
+        Read paper
+      </a>
+    </div>
+  </div>
+</section>
 
-- [Google Scholar](https://scholar.google.com/citations?hl=it&user=kKSI7MAAAAAJ)
-- [ORCID](https://orcid.org/0000-0002-6528-3449)
+<section class="home-section">
+  <h2>Projects and networks</h2>
 
----
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>COST Action CA17137</h3>
+      <p>
+        A European network connecting gravitational-wave physics,
+        geophysics, and machine learning.
+      </p>
+      <a class="btn btn-secondary" href="https://www.cost.eu/actions/CA17137/">
+        COST page
+      </a>
+    </div>
 
-## Projects and Networks
-
-- **COST Action CA17137 (G2Net)**  
-  [COST Action page](https://www.cost.eu/actions/CA17137/) ·  
-  [G2Net website](https://www.g2net.eu/)
-
-- **GraWIToN Initial Training Network (ITN)**  
-  [GraWIToN website](https://www.grawiton-gw.eu/) ·  
-  [CORDIS project page](https://cordis.europa.eu/project/id/606176/reporting)
-
- 
-
- 
- 
+    <div class="feature-card">
+      <h3>GraWIToN ITN</h3>
+      <p>
+        Initial Training Network for early-career researchers
+        in gravitational-wave science.
+      </p>
+      <a class="btn btn-secondary" href="https://www.grawiton-gw.eu/">
+        Project website
+      </a>
+    </div>
+  </div>
+</section>
