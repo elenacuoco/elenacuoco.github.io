@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
- 
+
 <section class="hero">
   <div class="hero-inner">
     <p class="eyebrow">Academic profile</p>
@@ -113,6 +113,32 @@ title: Home
         <a class="btn btn-secondary" href="https://www.g2net.eu/" target="_blank" rel="noopener">G2Net</a>
       </p>
     </div>
+
+    <div class="feature-card">
+      <h3>ESCAPE Project</h3>
+      <p>
+        <strong>General Assemply Chari and Contributor</strong><br>
+        European Science Cluster of Astronomy &amp; Particle Physics ESFRI Research Infrastructures
+      </p>
+      <p>
+        <a class="btn btn-secondary" href="https://projectescape.eu/" target="_blank" rel="noopener">
+          Project website
+        </a>
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <h3>EOSC-Future</h3>
+      <p>
+        <strong>Extreme Universe Science Project Coordinator</strong><br>
+        European Open Science Cloud
+      </p>
+      <p>
+        <a class="btn btn-secondary" href="https://eoscfuture.eu/data/the-extreme-universe-and-gravitational-waves/" target="_blank" rel="noopener">
+          Project website
+        </a>
+      </p>
+    </div>
   </div>
 </section>
 
@@ -181,7 +207,11 @@ title: Home
   </p>
 
   <p>
-    <a class="btn btn-secondary" href="https://www.unibo.it/sitoweb/elena.cuoco/en" target="_blank" rel="noopener">University of Bologna profile</a>
-    <a class="btn btn-secondary" href="https://www.linkedin.com/in/elenacuoco/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn btn-secondary" href="https://www.unibo.it/sitoweb/elena.cuoco/en" target="_blank" rel="noopener">
+      University of Bologna profile
+    </a>
+    <a class="btn btn-secondary" href="https://www.linkedin.com/in/elenacuoco/" target="_blank" rel="noopener">
+      LinkedIn
+    </a>
   </p>
 </section>
