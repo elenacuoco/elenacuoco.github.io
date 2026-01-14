@@ -30,49 +30,8 @@ title: Home
       </p>
       <p><a href="{{ '/research-and-academia' | relative_url }}">Dive into my research →</a></p>
     </article>
-
-    <article class="feature-card">
-      <h3>Data Science</h3>
-      <p>
-        From competition notebooks to real-world pipelines, I write about machine learning,
-        time-series analysis, and practical tips for working with data.
-      </p>
-      <p><a href="{{ '/data-science' | relative_url }}">Explore data science posts →</a></p>
-    </article>
-
-    <article class="feature-card">
-      <h3>Travels &amp; Photos</h3>
-      <p>
-        Places that inspired me, people I met, and moments I don’t want to forget —
-        collected in small visual stories around the world.
-      </p>
-      <p><a href="{{ '/travels-and-photos' | relative_url }}">See where I’ve been →</a></p>
-    </article>
-  </div>
-</section>
-
-<section class="home-section">
-  <h2>Latest from the blog</h2>
-
-  {% if site.posts and site.posts.size > 0 %}
-  <div class="post-grid">
-    {% for post in site.posts limit:4 %}
-      <article class="post-card">
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-        <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
-      </article>
-    {% endfor %}
-  </div>
-  <p>
-    <a href="{{ '/blog' | relative_url }}" class="btn">View all posts</a>
-  </p>
-  {% else %}
-  <p><em>No posts yet.</em> When you publish your first article in <code>_posts</code>, it will appear here.</p>
-  {% endif %}
-</section>
-
+ 
+*/
 <section class="home-section home-section-alt">
   <div class="two-columns">
     <div>
