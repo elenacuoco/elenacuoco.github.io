@@ -93,6 +93,16 @@ permalink: /research-and-academia/
 
   <div class="feature-grid">
     <div class="feature-card">
+      <h3>Applications of machine learning in gravitational-wave research with current interferometric detectors</h3>
+      <p>
+        <em>Living Review in Relativity</em> (2025)
+      </p>
+      <a class="btn btn-secondary"
+         href="https://link.springer.com/article/10.1007/s41114-024-00055-8">
+        Read paper
+      </a>
+    </div>
+    <div class="feature-card">
       <h3>Machine Learning for GW science</h3>
       <p>
         <em>Machine Learning: Science and Technology</em> (2021)
@@ -103,27 +113,9 @@ permalink: /research-and-academia/
       </a>
     </div>
 
-    <div class="feature-card">
-      <h3>Noise transients in GW detectors</h3>
-      <p>
-        <em>Classical and Quantum Gravity</em> (2018)
-      </p>
-      <a class="btn btn-secondary"
-         href="https://iopscience.iop.org/article/10.1088/1361-6382/aaa8d5">
-        Read paper
-      </a>
-    </div>
+ 
 
-    <div class="feature-card">
-      <h3>GWTC-3 catalog</h3>
-      <p>
-        <em>Physical Review X</em> (2023)
-      </p>
-      <a class="btn btn-secondary"
-         href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.13.041039">
-        Read paper
-      </a>
-    </div>
+     
   </div>
 </section>
 
@@ -148,8 +140,8 @@ permalink: /research-and-academia/
         Initial Training Network for early-career researchers
         in gravitational-wave science.
       </p>
-      <a class="btn btn-secondary" href="https://www.grawiton-gw.eu/">
-        Project website
+      <a class="btn btn-secondary" href="https://cordis.europa.eu/project/id/606176/reporting">
+        Cordis project website
       </a>
     </div>
   </div>
