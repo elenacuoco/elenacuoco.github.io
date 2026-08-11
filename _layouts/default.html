@@ -11,41 +11,63 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="site-branding">
-        <a href="{{ '/' | relative_url }}" class="logo-link">
-          <img src="{{ '/assets/images/logo.svg' | relative_url }}"
-               alt="Elena Cuoco — signal-bars mark"
-               class="site-logo">
-        </a>
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      </div>
-      <nav class="site-nav">
-        <ul>
-          {% for item in site.nav %}
-            <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main class="site-content">
-    <div class="container">
-      {{ content }}
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
-      <p class="social-links">
-        <a href="https://github.com/elenacuoco" target="_blank" rel="noopener">GitHub</a>
-        ·
-        <a href="https://www.linkedin.com/in/elenacuoco" target="_blank" rel="noopener">LinkedIn</a>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a href="{{ '/' | relative_url }}" class="sb-brand">
+        <span class="sb-avatar">
+          {% if site.profile_photo %}
+            <img src="{{ site.profile_photo | relative_url }}" alt="Elena Cuoco">
+          {% else %}
+            EC
+          {% endif %}
+        </span>
+        <span class="sb-name">Elena Cuoco</span>
+      </a>
+      <p class="sb-role">
+        Full Professor, University of Bologna<br>
+        Gravitational-wave science · AI/ML for physics
       </p>
+
+      <nav class="sb-nav">
+        {% for item in site.nav %}
+          <a href="{{ item.link | relative_url }}"{% if page.url == item.link %} class="current"{% endif %}>{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+
+      {% if page.toc %}
+        <div class="sb-jump">
+          <p class="label">On this page</p>
+          {% for item in page.toc %}
+            <a href="#{{ item.anchor }}">{{ item.name }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <div class="sb-actions">
+        <a class="btn" href="https://scholar.google.com/citations?user=kKSI7MAAAAAJ&hl=it" target="_blank" rel="noopener">Google Scholar</a>
+        <a class="btn btn-secondary" href="https://orcid.org/0000-0002-6528-3449" target="_blank" rel="noopener">ORCID</a>
+        <a class="btn btn-secondary" href="{{ '/assets/cv/Elena_Cuoco_CV.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV</a>
+      </div>
+    </aside>
+
+    <div class="main-col">
+      <main class="site-content">
+        <div class="content-inner">
+          {{ content }}
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="content-inner" style="padding-top:0;padding-bottom:0;">
+          <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
+          <p class="social-links">
+            <a href="https://github.com/elenacuoco" target="_blank" rel="noopener">GitHub</a>
+            ·
+            <a href="https://www.linkedin.com/in/elenacuoco" target="_blank" rel="noopener">LinkedIn</a>
+          </p>
+        </div>
+      </footer>
     </div>
-  </footer>
+  </div>
 </body>
 </html>

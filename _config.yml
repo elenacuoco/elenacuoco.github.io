@@ -11,14 +11,18 @@ url: "https://elenacuoco.github.io"
 # Theme
 theme: jekyll-theme-minimal
 
+# Sidebar photo: drop your photo in assets/images/ (square works best)
+# and uncomment the line below with its filename.
+# profile_photo: "/assets/images/profile.jpg"
+
 # Navigation menu
 nav:
   - name: "Home"
     link: "/"
   - name: "About me"
-    link: "/about"
+    link: "/about/"
   - name: "Research and Academia"
-    link: "/research-and-academia"
+    link: "/research-and-academia/"
 #  - name: "Data Science"
 #    link: "/data-science"
 #  - name: "Travels and Photos"

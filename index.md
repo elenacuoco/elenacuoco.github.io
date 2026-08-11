@@ -1,35 +1,32 @@
 ---
 layout: default
 title: Home
+toc:
+  - name: About in brief
+    anchor: about
+  - name: Academic path
+    anchor: academic-path
+  - name: Community leadership
+    anchor: community
+  - name: Featured publication
+    anchor: publications
+  - name: Contact
+    anchor: contact
 ---
 
-<section class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">Academic profile</p>
-    <h1>Elena Cuoco</h1>
-    <p class="subtitle">
-      Full Professor, University of Bologna<br>
-      Gravitational wave science - AI/ML for physics
-    </p>
+<div class="page-title">
+  <p class="eyebrow">Academic profile</p>
+  <h1>Gravitational wave science — AI/ML for physics</h1>
+  <p class="metrics-line">
+    <strong>Citations:</strong> 156,736 · <strong>h-index:</strong> 134 · <strong>i10-index:</strong> 406
+    <span>(source: Google Scholar)</span>
+  </p>
+  <p class="hero-links">
+    <a href="https://www.elenacuoco.com" target="_blank" rel="noopener">www.elenacuoco.com</a>
+  </p>
+</div>
 
-    <p>
-      <a class="btn" href="https://scholar.google.com/citations?user=kKSI7MAAAAAJ&hl=it" target="_blank" rel="noopener">Google Scholar</a>
-      <a class="btn btn-secondary" href="https://orcid.org/0000-0002-6528-3449" target="_blank" rel="noopener">ORCID</a>
-      <a class="btn btn-secondary" href="{{ '/assets/cv/Elena_Cuoco_CV.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>
-    </p>
-
-    <p class="metrics-line">
-      <strong>Citations:</strong> 156,736 · <strong>h-index:</strong> 134 · <strong>i10-index:</strong> 406
-      <span>(source: Google Scholar)</span>
-    </p>
-
-    <p class="hero-links">
-      <a href="https://www.elenacuoco.com" target="_blank" rel="noopener">www.elenacuoco.com</a>
-    </p>
-  </div>
-</section>
-
-<section class="home-section">
+<section class="home-section" id="about">
   <h2>About in brief</h2>
 
   <p class="section-lede">
@@ -53,7 +50,7 @@ title: Home
   <a class="section-link" href="{{ '/about/' | relative_url }}">Read the full bio →</a>
 </section>
 
-<section class="home-section home-section-alt">
+<section class="home-section home-section-alt" id="academic-path">
   <h2>Academic path</h2>
 
   <ul class="timeline timeline-compact">
@@ -74,7 +71,7 @@ title: Home
   <a class="section-link" href="{{ '/research-and-academia/' | relative_url }}">See the full academic path and leadership roles →</a>
 </section>
 
-<section class="home-section">
+<section class="home-section" id="community">
   <h2>Community leadership</h2>
 
   <div class="feature-grid">
@@ -86,7 +83,7 @@ title: Home
   </div>
 </section>
 
-<section class="home-section home-section-alt">
+<section class="home-section home-section-alt" id="publications">
   <h2>Featured publication</h2>
 
   <div class="feature-grid">
@@ -107,7 +104,7 @@ title: Home
   <a class="section-link" href="{{ '/research-and-academia/#publications' | relative_url }}">More publications and projects →</a>
 </section>
 
-<section class="home-section">
+<section class="home-section" id="contact">
   <h2>Contact</h2>
 
   <p class="section-lede">

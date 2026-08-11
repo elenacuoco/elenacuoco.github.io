@@ -2,26 +2,37 @@
 layout: default
 title: Research and Academia
 permalink: /research-and-academia/
+toc:
+  - name: Research focus
+    anchor: focus
+  - name: Academic positions
+    anchor: positions
+  - name: Leadership
+    anchor: leadership
+  - name: Honors
+    anchor: honors
+  - name: Projects and networks
+    anchor: projects
+  - name: Publications
+    anchor: publications
+  - name: Editorial and community
+    anchor: editorial
+  - name: Public engagement
+    anchor: engagement
+  - name: Teaching
+    anchor: teaching
 ---
 
-<section class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">Research</p>
-    <h1>Research and Academia</h1>
-    <p class="subtitle">
-      Gravitational-wave science, data analysis, and artificial intelligence
-      for complex physical systems.
-    </p>
-    <a href="#publications" class="btn">
-      Publications
-    </a>
-    <a href="https://orcid.org/0000-0002-6528-3449" class="btn btn-secondary" target="_blank" rel="noopener">
-      ORCID
-    </a>
-  </div>
-</section>
+<div class="page-title">
+  <p class="eyebrow">Research</p>
+  <h1>Research and Academia</h1>
+  <p class="subtitle">
+    Gravitational-wave science, data analysis, and artificial intelligence
+    for complex physical systems.
+  </p>
+</div>
 
-<section class="home-section">
+<section class="home-section" id="focus">
   <h2>Research focus</h2>
 
   <ul class="tag-list">
@@ -42,7 +53,7 @@ permalink: /research-and-academia/
   </p>
 </section>
 
-<section class="home-section home-section-alt">
+<section class="home-section home-section-alt" id="positions">
   <h2>Academic positions</h2>
 
   <ul class="timeline">
@@ -64,7 +75,7 @@ permalink: /research-and-academia/
   </ul>
 </section>
 
-<section class="home-section">
+<section class="home-section" id="leadership">
   <h2>Leadership and coordination</h2>
 
   <ul class="timeline">
@@ -124,7 +135,7 @@ permalink: /research-and-academia/
   </ul>
 </section>
 
-<section class="home-section home-section-alt">
+<section class="home-section home-section-alt" id="honors">
   <h2>Honors</h2>
 
   <div class="feature-grid">
@@ -139,7 +150,7 @@ permalink: /research-and-academia/
   </div>
 </section>
 
-<section class="home-section">
+<section class="home-section" id="projects">
   <h2>Projects and networks</h2>
 
   <div class="feature-grid">
@@ -232,7 +243,7 @@ permalink: /research-and-academia/
   </p>
 </section>
 
-<section class="home-section">
+<section class="home-section" id="editorial">
   <h2>Editorial roles and community</h2>
 
   <p><strong>Editorial boards</strong></p>
@@ -251,7 +262,7 @@ permalink: /research-and-academia/
   </div>
 </section>
 
-<section class="home-section home-section-alt">
+<section class="home-section home-section-alt" id="engagement">
   <h2>Public engagement</h2>
 
   <div class="feature-grid">
@@ -272,7 +283,7 @@ permalink: /research-and-academia/
   </div>
 </section>
 
-<section class="home-section">
+<section class="home-section" id="teaching">
   <h2>Teaching and mentorship</h2>
 
   <div class="two-columns">
