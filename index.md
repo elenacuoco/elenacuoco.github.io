@@ -17,10 +17,6 @@ toc:
 <div class="page-title">
   <p class="eyebrow">Academic profile</p>
   <h1>Gravitational wave science — AI/ML for physics</h1>
-  <p class="metrics-line">
-    <strong>Citations:</strong> 156,736 · <strong>h-index:</strong> 134 · <strong>i10-index:</strong> 406
-    <span>(source: Google Scholar)</span>
-  </p>
   <p class="hero-links">
     <a href="https://www.elenacuoco.com" target="_blank" rel="noopener">www.elenacuoco.com</a>
   </p>
