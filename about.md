@@ -4,7 +4,17 @@ title: About me
 permalink: /about/
 ---
 
- 
+<section class="hero">
+  <div class="hero-inner">
+    <p class="eyebrow">About</p>
+    <h1>Elena Cuoco</h1>
+    <p class="subtitle">
+      Physicist &amp; data scientist · Gravitational-wave detector characterization
+    </p>
+  </div>
+</section>
+
+<section class="home-section" markdown="1">
 
 I am a physicist and data scientist with more than twenty years of experience in data analysis for the Virgo gravitational-wave experiment. From March 2018 to September 2024, I served as Head of the Data Science Office at the European Gravitational Observatory, and from March 2018 to January 2024 I was Associate Faculty at the Scuola Normale Superiore.
 
@@ -15,3 +25,5 @@ My expertise lies in noise analysis, system identification, and data conditionin
 Within the LIGO–Virgo collaboration, I have co-chaired the Machine Learning informal group and actively promoted the integration of artificial intelligence into gravitational-wave data analysis. I am a Kaggle Master and was the main proposer and Action Chair of the COST Action CA17137, *“A Network for Gravitational Waves, Geophysics, and Machine Learning.”*
 
 Since 2024, I have been a Full Professor at the University of Bologna. My current research focuses on gravitational-wave data analysis, detector characterization, and the development of artificial intelligence methods for the detection of astrophysical signals. I am a member of the LIGO/Virgo/KAGRA collaboration, author of numerous scientific publications, and actively involved in European and international research initiatives.
+
+</section>
