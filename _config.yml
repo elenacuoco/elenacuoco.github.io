@@ -23,6 +23,8 @@ nav:
     link: "/about/"
   - name: "Research and Academia"
     link: "/research-and-academia/"
+  - name: "Projects"
+    link: "/projects/"
 #  - name: "Data Science"
 #    link: "/data-science"
 #  - name: "Travels and Photos"
@@ -37,6 +39,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # SEO & social (used by jekyll-seo-tag)
 social:
