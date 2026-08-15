@@ -3,19 +3,19 @@
 --------------------------------------------------- */
 
 :root {
-  --bg: #f6f6f5;
-  --bg-alt: #eeeeec;
+  --bg: #eef3f5;
+  --bg-alt: #e2ebee;
   --surface: #ffffff;
-  --text: #211d1b;
-  --text-muted: #6b6663;
-  --border: #e1dedb;
-  --accent: #7a3428;
-  --accent-dark: #5c2620;
-  --accent-soft: #f1e2dd;
-  --sidebar-bg: #2b211e;
-  --sidebar-text: #f3ece9;
-  --sidebar-text-muted: #b9aca7;
-  --sidebar-border: #3d312d;
+  --text: #0d1a24;
+  --text-muted: #4a6473;
+  --border: #c3d3da;
+  --accent: #2b7086;
+  --accent-dark: #1f5464;
+  --accent-soft: #d9edf1;
+  --sidebar-bg: #08121c;
+  --sidebar-text: #dfe9ee;
+  --sidebar-text-muted: #8aa6b4;
+  --sidebar-border: #1d3341;
   --radius: 4px;
   --sidebar-width: 260px;
   --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
